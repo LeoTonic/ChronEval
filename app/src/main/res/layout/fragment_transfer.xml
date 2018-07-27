@@ -5,10 +5,12 @@
     android:id="@+id/transfer_view">
 
     <ListView
+        android:id="@+id/device_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
     <TextView
+        android:id="@+id/status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
